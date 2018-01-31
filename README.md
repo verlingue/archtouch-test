@@ -85,6 +85,9 @@ I created the fully adjustable and responsive model for mobile devices.
 You can contact me in various ways if you need to.
 
 > **FACEBOOK:** https://www.facebook.com/duh.verlingue
+
 > **TWITTER:** https://twitter.com/_verlingue
+
 > **LINKEDIN:** https://www.linkedin.com/in/verlingue/
+
 > **E-MAIL:** eduardo@cwbra.com
