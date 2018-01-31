@@ -1,7 +1,6 @@
 ![](http://reviewsappdeveloper.com/wp-content/uploads/2016/02/arctouch-logo.png)
 
 # Mobile App Landing Page
-
 (FRONT-END DEV CODE CHALLENGE)
 
 Hi! This is the first project, of many projects, I hope, that I develop for **ArcTouch**. At present, as an evaluation modality to apply the vacancy. I am happy for the opportunity and as I was guided in the interview, I used the most pure and simple codification possible, structuring and creating the codes at hand.
@@ -29,16 +28,18 @@ To facilitate the evaluation process, I have committed the files here to **GITHU
 
 # Screenshots of the Project
 ## Full view
-| Desktop![](https://raw.githubusercontent.com/verlingue/ArcTouch-Evaluation/craze-evaluation-jan18/readme_assets/FireShot%20Capture%201%20-%20ArcTouch%20by%20Jo%C3%A3o%20Eduardo%20Verlingue%20-%20http___cwbra.com_projetos_arctouch_.png) | Mobile![](https://raw.githubusercontent.com/verlingue/ArcTouch-Evaluation/craze-evaluation-jan18/readme_assets/FireShot%20Capture%202%20-%20ArcTouch%20by%20Jo%C3%A3o%20Eduardo%20Verlingue%20-%20http___cwbra.com_projetos_arctouch_.png) |
+| Desktop![enter image description here](https://raw.githubusercontent.com/verlingue/ArcTouch-Evaluation/craze-evaluation-jan18/readme_assets/FireShot%20Capture%201%20-%20ArcTouch%20by%20Jo%C3%A3o%20Eduardo%20Verlingue%20-%20http___cwbra.com_projetos_arctouch_.png) | Mobile![enter image description here](https://raw.githubusercontent.com/verlingue/ArcTouch-Evaluation/craze-evaluation-jan18/readme_assets/FireShot%20Capture%202%20-%20ArcTouch%20by%20Jo%C3%A3o%20Eduardo%20Verlingue%20-%20http___cwbra.com_projetos_arctouch_.png) |
 |--|--|
 
 ## Desktop
 Navigation view:
-![](https://lh3.googleusercontent.com/3NtYS5kPAHYhYlLCLuzLbnKTulMHs_BdTXScQLKNv7rbuGz9oSq6XlHR-hPJudhVRT4rj3ATz_F0zgEyB1AJz0NBxFrWbfPtuj-kTM3mwSXnmbwfsZmHXyfTlOxqAfVyisOkUbtgj9EqbR-B7-oo-gDaTzTpfmRk2dcI8ggF51_bIknq2abs_qMB44EJCR6Xn8SKX3OoVBbuQ9vvfjLuVoB2nreMHolfVUjTcEv5hGAGJ6008N6z9bnAOKDwLCafHCJx1bwySJ3rZFD6gyCvj9PG8wWuoF97RXx_SQPjHyBEyVhbUEXAZ0f-7zzYCFpArN4OyumCUAhWM-1Cmk1k9o-n-6FXcjwF2RQXtuOyYFokB_MVc6io2ur9dSlhXz3ATj17IMh6_ent4xY2yPRulD3J3A3l0pZdvvpPQChAjpu0tKs7r68XXrlL0lpxfjIx46vOiD_scr7CcXloaMP-ItFHYJ_M3XZ0ZXw3Bj1a1VeecmpubnBENS-pdpXskAEONkBcJ0CiqgU6SAKCL7L9dhn9aWGNCHuEMgAv_yZghceVdHLCvgj-RUal_hhS86H7SFEpIi-XQEV3tLCgsuByzEZqy7bVXmQ6gj-YUOrn=w615-h346-no)
+
+![](https://i.makeagif.com/media/1-31-2018/4pcnuf.gif)
 
 ## Mobile
 Navigation view:
-![](https://lh3.googleusercontent.com/0Cnjbfv99kT63D6jr_9wIW8EBPDDIuxJwgIyp9JKkFC58zQg2CuCS3lAQcKKj_kYSKaV-44stmGw_22mVdYG4h5B32nLbs8oWdzCANdefe5CmutvIg3WnKEDudzer8QNmjdbZ8HdLR5NJwAgVFEokZXfk_WAF06iF19orvxlO_eIN47ocAG__vRmzFuLJv2qYhwSf8DvvqrqOUac73Z1V4ZfPo38rQR4wa1byKjne6qr2Sc2kuVIgz_oqcSZCQZ8boXyDZiW-Mid9pdJsab9Vm9gJbXhhNTZ38esZDfHmRWNxUjU2V3eSvBq6sznu7ViL2Cl9QigAxIZWIo5kHSwXUK40ZinvoaxNZmxFZBb-WGYNPwxitA1vjuA9OjI5-6llV4GqfKp5fxxmgMoSONp1k3teHtOC2nMbw3uhillpM6YdK-ZgUikTVnNEka4jf9xLp9H_x01FSVo3-A29LSAstAzW7hrK2hWrfIZEveyNFPTJQc7rN0A5ftdNarTUr_nF2YBTc6GNfSqtE-06NjlTsIp9RfXABPBhfDdH75ql51cb4Wpm0GZbx8N47KE42YpQQFTNsvK8FkRuoehH4xWMwkEacpEbwT4o33yRhyT=w1454-h818-no)
+
+![](https://i.makeagif.com/media/1-31-2018/7kJ8Y8.gif)
 
 
 # Synchronization
@@ -84,9 +85,6 @@ I created the fully adjustable and responsive model for mobile devices.
 You can contact me in various ways if you need to.
 
 > **FACEBOOK:** https://www.facebook.com/duh.verlingue
-
 > **TWITTER:** https://twitter.com/_verlingue
-
 > **LINKEDIN:** https://www.linkedin.com/in/verlingue/
-
 > **E-MAIL:** eduardo@cwbra.com
