@@ -1,0 +1,26 @@
+{
+  "name": "Craze_ArcTouch_Test",
+  "description": "Mobile App Landing Page - FRONT-END DEV CODE CHALLENGE",
+  "main": "",
+  "keywords": [
+    "ArcTouch"
+  ],
+  "authors": [
+    "João Eduardo Verlingue <eduardo@cwbra.com>"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.cwbra.com/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "ftpsync.settings"
+  ],
+  "dependencies": {
+    "angular": "~1.6.8",
+    "animate.css": "~3.5.2",
+    "jquery": "~3.3.1"
+  }
+}
