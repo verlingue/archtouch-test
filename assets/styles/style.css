@@ -1,0 +1,731 @@
+
+/**
+ * Description: Application for ArcTouch by João Eduardo Verlingue.
+ * Version: 1.0.0
+ * Last update: 2018/01/29
+ * Author: João Eduardo Verlingue <eduardo@cwbra.com>
+ *
+ * Summary:
+ *
+ *  0. FONTS
+ *    - All project fonts converted to WOFF are embedded as WebFonts here
+ *
+ *  1. STRUCTURE
+ *    - All styles and changes that refer to the overall design of the project are in this section.
+ *
+ *  2. CONTENT
+ *    - All about content customizations.
+ *    - 2.1 - General customizations
+ *    - 2.2 - Sprites, Images and Icons
+ *	  - 2.3 - Texts
+ *
+ *  3. MOBILE ADJUSTMENT   
+ *    - All settings are here, including the hide components for this viewport.
+ *	  - 3.1 - Show and Hide Items and components
+ *	  - 3.2 - Adjustment of Items and components
+ *
+ *  4. TESTIMONIAL SLIDER
+ *	  - 4.1 - Slider CSS
+ *	  - 4.2 - Navigation Slider CSS
+ *
+ */
+
+
+/* ==========================================================================
+   0. FONTS
+   ========================================================================== */
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../fonts/Pacifico-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/HelveticaNeueMedium.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../fonts/myriad-pro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'NovecentoswideDemiBold';
+    src: url('../fonts/Novecentosanswide-DemiBold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* ==========================================================================
+   1. STRUCTURE
+   ========================================================================== */
+
+html, body { height: 100%; width: 100%; }
+
+body {
+	margin: 0 auto;
+	position: relative;
+    min-height: 100%;
+    top: 0px;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fleft{
+	float: left;
+}
+
+.fright{
+	float: right;
+}
+@media screen and (min-width: 901px) {
+	.container {
+		min-width: 940px;
+	    width: 65%;
+	    height: 100%;
+	}
+}
+
+ul li a {text-decoration: none;}
+
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.nav li{
+    display:inline;
+}
+
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+.pdspacing {
+	padding: 50px 0;
+}
+
+[class*="grid-"] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12 {
+	position: relative;
+	min-height: 1px;
+	display: inline-block;
+	width: 94%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+@media screen and (min-width: 901px) {
+	.desktop-hide { display: none; }
+	.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12 {
+		float: left;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.grid-12 {
+		width: 100%;
+	}
+	.grid-11 {
+		width: 91.66666667%;
+	}
+	.grid-10 {
+		width: 83.33333333%;
+	}
+	.grid-9 {
+		width: 75%;
+	}
+	.grid-8 {
+		width: 66.66666667%;
+	}
+	.grid-7 {
+		width: 58.33333333%;
+	}
+	.grid-6 {
+		width: 50%;
+	}
+	.grid-5 {
+		width: 41.66666667%;
+	}
+	.grid-4 {
+		width: 33.33333333%;
+	}
+	.grid-3 {
+		width: 25%;
+	}
+	.grid-2 {
+		width: 16.66666667%;
+	}
+	.grid-1 {
+		width: 8.33333333%;
+	}
+}
+
+/* ==========================================================================
+   2. CONTENT
+   ========================================================================== */
+
+	/* 2.1 - General customizations ***************************************** */
+
+	.header_page {
+		width: 100%;
+		height: 600px;
+		background-image: url('../images/header_patten_blue.png');
+		background-position: center;
+	}
+	@media screen and (min-width: 901px) {
+		.header_left {
+		    padding: 120px 0;
+		    min-width: 500px;
+		    width: 50%;
+		    animation-duration: 1s;
+			animation-delay: 0.5s;
+		}
+	}
+
+	.header_right {
+		height: 100%;
+    	max-width: 400px;
+    	width: 40%;
+	}
+
+	.bottom_links {
+		height: 90px;
+		background: #e3e3e3;
+	}
+
+	.greybg {
+		background-color: #e2e2e2;
+	}
+
+	.vimeovideo {
+		width: 100%;
+		height: 300px;
+	}
+
+	.listpadding {
+		padding-left: 55px;
+	}
+
+	ul.listpadding {
+		list-style: square inside url("../images/list_style_item.png");
+	}
+	
+	.listpadding li {
+		padding-bottom: 20px;
+	}
+
+	.nav_controller {
+		display: block;
+		width: 70px;
+		cursor: pointer;
+	}
+
+	.nav_controller li {
+		font-size: 32px;
+		list-style: circle;
+		color: #0099de;
+		width: 20px;
+		float: left;
+		cursor: pointer;
+	}
+
+	.nav_controller li.active {
+		font-size: 32px;
+		list-style: disc;
+		color: #0099de;
+	}
+
+	.pricingplans {
+		width: 110%;
+		min-height: 20px;
+		margin-left: -5%;
+	}
+
+	.pricingplansingle {
+		width: 24%;
+		height: 100%;
+		position: relative;
+		top: 45px;
+		background: #fff;
+		padding: 0;
+		margin: 0.2%;
+	}
+
+	.pricingplansingle.better {
+		height: 110%;
+		position: relative;
+		top: 30px;
+	}
+
+	.planline {
+		padding: 10px;
+		color: #222;
+	}
+
+	.planline.blue {
+		background: #3498db;
+		padding: 15px;
+	}
+
+	.planline.feature {
+		border-bottom: 1px solid #848484;
+		margin: 4px 18px;
+	}
+
+	.planline.feature.last {
+		border-bottom: none;
+	}
+
+	.planline button.purchase_plan {
+		background: #0d74b9;
+		color: #fff;
+		padding: 8px 20px;
+		border: none;
+		cursor: pointer;
+		transition-duration: 0.2s;
+	}
+
+	.planline button.purchase_plan:hover {
+		background: #75c11d;
+	}
+
+	/* 2.2 - Sprites, Images and Icons ************************************* */
+
+	.mobile_icon {
+		width: 53px;
+		height: 53px;
+		position: relative;
+		display: inline-block;
+		transition-duration: 0.5s;
+		margin: 0 3%;
+	}
+
+	.mobile_icon:hover { opacity: 0.6; cursor: pointer; }
+
+	.apple {
+		background: url('../images/mobile-icons.png') no-repeat -39px -26px;
+		animation-delay: 0.4s;
+	}
+
+	.android {
+		background: url('../images/mobile-icons.png') no-repeat -106px -26px;
+		animation-delay: 0.7s;
+	}
+
+	.windows {
+		background: url('../images/mobile-icons.png') no-repeat -174px -26px;
+		animation-delay: 1.0s;
+	}
+	
+	.header_img {
+		background-image: url(../images/iphone_hand_appglu.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom;
+		height: inherit;
+		animation-duration: 2s;
+		animation-delay: 1s;
+	}
+	
+	[class*="iconflat-"] {
+		display: inline-block;;
+	}
+
+	.iconflat-pc {
+		background: url('../images/sprite_blue_craze.png') no-repeat -22px -19px;
+		width: 48px;
+		height: 42px;
+	}
+
+	.iconflat-goal {
+		background: url('../images/sprite_blue_craze.png') no-repeat -109px -15px;
+		width: 46px;
+		height: 46px;
+	}
+
+	.iconflat-photo {
+		background: url('../images/sprite_blue_craze.png') no-repeat -189px -16px;
+		width: 48px;
+		height: 48px;
+	}
+
+	.iconflat-pallete {
+		background: url('../images/sprite_blue_craze.png') no-repeat -22px -101px;
+		width: 42px;
+		height: 47px;
+	}
+
+	.iconflat-user {
+		background: url('../images/sprite_blue_craze.png') no-repeat -99px -100px;
+		width: 48px;
+		height: 48px;
+	}
+
+	.iconflat-settings {
+		background: url('../images/sprite_blue_craze.png') no-repeat -189px -101px;
+	width: 48px;
+	height: 48px;
+	}
+	
+	.socialiconbg {
+		width: 100%;
+		height: 60px;
+	}
+
+	.socialicon {
+		display: inline-block;
+		cursor: pointer;
+		transition-duration: 0.5s;
+		width: 36px;
+		height: 36px;
+	}
+	
+	.socialicon.tw {
+		background: url('../images/Social_circle.png') no-repeat -263px -63px;
+	}
+	
+	.socialicon.tw:hover {
+		background: url('../images/Social_circle.png') no-repeat -263px -19px
+	}
+
+	.socialicon.fb {
+		background: url('../images/Social_circle.png') no-repeat -28px -63px;
+	}
+
+	.socialicon.fb:hover {
+		background: url('../images/Social_circle.png') no-repeat -28px -19px;;
+	}
+
+	.socialicon.pr {
+		background: url('../images/Social_circle.png') no-repeat -146px -63px;
+	}
+
+	.socialicon.pr:hover {
+		background: url('../images/Social_circle.png') no-repeat -146px -19px;
+	}
+
+	.socialicon.gp {
+		background: url('../images/Social_circle.png') no-repeat -66px -63px;
+	}
+
+	.socialicon.gp:hover {
+		background: url('../images/Social_circle.png') no-repeat -66px -19px;
+	}
+
+	.socialicon.ln {
+		background: url('../images/Social_circle.png') no-repeat -106px -63px;
+	}
+
+	.socialicon.ln:hover {
+		background: url('../images/Social_circle.png') no-repeat -106px -19px;
+	}
+
+	.socialicon.yt {
+		background: url('../images/Social_circle.png') no-repeat -224px -63px;
+	}
+
+	.socialicon.yt:hover {
+		background: url('../images/Social_circle.png') no-repeat -224px -19px;
+	}
+	
+	/* 2.3 - Texts ********************************************************* */
+
+	.logo_txt {
+	    font-family: 'Pacifico';
+    	font-weight: normal;
+    	font-style: normal;
+    	color: #fff;
+    	font-size: 56px;
+    	text-shadow: 3px 3px #0070a2;
+	}
+
+	.logo_txt p {
+		font-family: 'HelveticaNeue';
+		font-weight: 500;
+		font-style: normal;
+		letter-spacing: 1.5px;
+		font-size: 21px;
+	}
+
+	.bottom_links a {
+		font-family: 'HelveticaNeue';
+		font-size: 13px;
+		color: #848484;
+		margin: 27px auto;
+		padding: 10px 22px;
+		text-align: center;
+		transition-duration: 0.5s;
+		border-radius: 25px;
+	}
+
+	.bottom_links a:hover {
+		background: #0c90cc;
+		border-radius: 25px;
+		color: #fff;
+	}
+
+	.titleblock {
+		font-family: 'MyriadProRegular';
+		color: #222;
+		font-size: 1.8em;
+	}
+
+	.subtitleblock {
+		font-family: 'HelveticaNeue';
+		font-size: 14px;
+		color: #848484;
+	}
+
+	.titleitem {
+		font-family: 'HelveticaNeue';
+		color: #222;
+		padding: 10px 0px;
+		font-weight: bold;
+	}
+
+	.subtitleitem {
+		font-family: 'HelveticaNeue';
+		font-size: 14px;
+		color: #848484;
+	}
+
+	.testimonials {
+		height: 300px !important;
+		-webkit-animation-delay: 2s;
+		-o-animation-delay: 2s;
+		animation-delay: 2s;
+		-webkit-animation-duration: 2s;
+		-o-animation-duration: 2s;
+		animation-duration: 2s;
+	}
+
+	.testimonials p {
+		font-family: 'HelveticaNeue';
+		font-size: 20px;
+		font-weight: lighter;
+		color: #848484;
+		font-style: italic;
+		width: 80%;
+    	padding: 0 10%;
+	}
+
+	.testimonials .author {
+		font-family: 'MyriadProRegular';
+		color: #222;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	.planline.title {
+		font-family: 'MyriadProRegular';
+		color: #fff;
+		font-size: 1.8em;
+	}
+
+	.planline button.purchase_plan {
+		font-family: 'HelveticaNeue';
+		color: #fff;
+		font-size: 12px;
+		font-weight: lighter;
+	}
+	
+	.planline.price {
+		font-family: 'NovecentoswideDemiBold';
+		font-size: 42px;
+		color: #222;
+	}
+
+	.planline.price cent {
+		font-family: 'NovecentoswideDemiBold';
+		font-size: 25px;
+		position: relative;
+		top: -10px;
+	}
+
+	.planline.feature {
+		font-family: 'HelveticaNeue';
+		color: #848484;
+		font-size: 12px;
+		font-weight: lighter;
+	}
+
+	.copyrights {
+		font-family: 'MyriadProRegular';
+		font-size: 14px;
+		color: #a0a0a0;
+		background: #222222;
+		text-align: center;
+		margin: 0;
+		padding: 20px;
+	}
+
+	.copyrights p {
+		margin: 0;
+		padding: 12px;
+	}
+
+	.tcenter {text-align: center;}
+
+/* ==========================================================================
+   3. MOBILE ADJUSTMENT
+   ========================================================================== */
+@media screen and (max-width: 900px) {
+
+	/* 3.1 - Show and Hide Items and components ***************************** */
+	.mobile-show { visibility: visible; }
+	.mobile-hide { display: none; }
+
+	/* 3.2 - Adjustment of Items and components ***************************** */
+	.container {
+	    width: 95vw;
+	    height: 100%;
+	}
+	
+	.logo_txt {
+	    text-align: center;
+	}
+
+	.mobile_icons_bg {
+		width: 95vw;
+		height: 53px;
+		text-align: center;
+		margin-top: 11vh;
+	}
+
+	.pricingplansingle {
+		width: 95%;
+		height: 100%;
+		position: relative;
+		top: 0;
+		background: #fff;
+		padding: 0;
+		margin: 0.2% 5%;
+	}
+	.pricingplansingle.better {
+		height: 110%;
+		position: relative;
+		top: 0;
+	}
+
+	.header_page {
+		width: 100%;
+		height: 100vh;
+	}
+
+	.header_left {
+		padding: 120px 0;
+		width: 100%;
+		animation-duration: 1s;
+		animation-delay: 0.5s;
+	}
+
+	.swipeind {
+		background: url(../images/swipe_up.svg);
+		background-size: cover;
+		opacity: 0.6;
+		height: 112px;
+		width: 75px;
+		display: inline-block;
+		position: relative;
+		top: 0px;
+		left: calc(50% - 32.5px);
+		-webkit-animation-duration: 2s;
+		-o-animation-duration: 2s;
+		animation-duration: 2s;
+		-webkit-animation-delay: 2s;
+		-o-animation-delay: 2s;
+		animation-delay: 2s;
+		animation-iteration-count: 2;
+	}
+
+	.slide {
+		height: 110px;
+		list-style-type: none;
+		margin-left: -70px;
+	}
+
+}
+
+/* ==========================================================================
+   4. TESTIMONIAL SLIDER
+   ========================================================================== */
+
+	/* 4.1 - Slider CSS ***************************************************** */
+
+.slide-wrap {
+    margin: 60px auto 0;
+}
+
+.slide-mask {
+	position: relative;
+	overflow: hidden;
+	height: 150px;
+}
+
+.slide-group {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 100%;
+}
+@media screen and (min-width: 901px) {
+	.slide {
+		height: 130px;
+		list-style-type: none;
+		margin-left: -70px;
+	}
+}
+
+	/* 4.2 - Navigation Slider CSS ****************************************** */
+
+.slide-nav { text-align: center; }
+
+.slide-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.slide-nav li {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+    background: rgb(255, 255, 255);
+    border: 2px solid #3498db;
+	cursor: pointer;
+	margin-left: .5em;
+	list-style-type: none;
+	border-radius: 50%;
+}
+
+.slide-nav li.current { background: rgb(40, 137, 202); }
